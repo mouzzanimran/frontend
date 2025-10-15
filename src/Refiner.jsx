@@ -15,7 +15,7 @@ const Refiner = () => {
     setOutputText("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/refiner", {
+      const response = await axios.post("https://texthub.onrender.com/api/refiner", {
         text: inputText,
         target, // send the theme to backend
       });

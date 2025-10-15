@@ -14,7 +14,7 @@ const Paraphraser = () => {
     setParaphrasedText("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/paraphraser", {
+      const response = await axios.post("https://texthub.onrender.com/api/paraphraser", {
         text: inputText,
       });
 

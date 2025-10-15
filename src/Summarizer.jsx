@@ -16,7 +16,7 @@ const Summarizer = () => {
     try {
       console.log("Sending request to backend:", { inputText });
 
-      const response = await axios.post("http://localhost:5000/api/summarize", {
+      const response = await axios.post("https://texthub.onrender.com/api/summarize", {
         inputText,
       });
 
