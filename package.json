@@ -2,7 +2,7 @@
   "name": "english-converter",
   "private": true,
   "version": "0.0.0",
-    "homepage": "https://mouzzanimran.github.io/TextHub",
+    "homepage": "https://mouzzanimran.github.io/frontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
